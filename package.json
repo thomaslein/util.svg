@@ -1,0 +1,11 @@
+{
+  "name": "util.svg",
+  "description": "SVG utility functions",
+  "version": "0.2.0",
+  "author": "Thomas Lein <thomaslein@gmail.com>",
+  "dependencies": {
+    "capabilities": "git://github.com/thomaslein/env.capabilities"
+  },
+  "main": "index.js",
+  "repository": "git://github.com/thomaslein/util.svg.git"
+}
