@@ -9,7 +9,7 @@ exports.LINK = 'http://www.w3.org/1999/xlink';
  * @param {String} defs
  */
 exports.injectDefs = function (id, defs) {
-	if (capabilities.hasSVG && !document.getElementById(id)) {
+	if (capabilities.hasSVG() && !document.getElementById(id)) {
 		var el = document.createElement('div')
 			, svg = '<svg id="'
 					+ id
